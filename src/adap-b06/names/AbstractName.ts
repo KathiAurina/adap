@@ -2,7 +2,6 @@ import { DEFAULT_DELIMITER, ESCAPE_CHARACTER } from "../common/Printable";
 import { Name } from "./Name";
 import { IllegalArgumentException } from "../common/IllegalArgumentException";
 import { MethodFailedException } from "../common/MethodFailedException";
-import { InvalidStateException } from "../common/InvalidStateException";
 
 
 export abstract class AbstractName implements Name {
